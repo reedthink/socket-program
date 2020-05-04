@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 		exit(1);
 	}
 
-	serv_sock = socket(PF_INET, SOCK_STREAM, 0);
+	serv_sock = socket(PF_INET, SOCK_STREAM, 0);//PF_INET表示使用ipv4协议族
 	if (serv_sock == -1)
 		error_handling("socket() error");
 
