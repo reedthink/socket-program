@@ -1,3 +1,4 @@
+//一个题外话：文件的信息是存储在何处？比如创建时间和修改时间
 #include <stdio.h>
 #include <unistd.h>
 int gval = 10;
