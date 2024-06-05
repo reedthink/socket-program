@@ -1,0 +1,1 @@
+g++ udp-server.cpp -Wall -o build/udp-server.out && build/udp-server.out

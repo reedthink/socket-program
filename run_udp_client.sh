@@ -1,0 +1,1 @@
+g++ udp-client.cpp -Wall -o build/udp-client.out && build/udp-client.out
